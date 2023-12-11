@@ -1,0 +1,101 @@
+{
+  "wallet-assets": [
+    {
+      "assetId": "asset1",
+      "walletId": "wallet1",
+      "shares": 15,
+      "createdAt": "2015-01-01T00:00:00Z",
+      "updatedAt": "2015-01-01T00:00:00Z",
+      "Asset": {
+        "id": "asset1",
+        "ticker": "ABCD1",
+        "price": 24.9
+      }
+    },
+    {
+      "assetId": "asset2",
+      "walletId": "wallet1",
+      "shares": 26,
+      "createdAt": "2015-01-01T00:00:00Z",
+      "updatedAt": "2015-01-01T00:00:00Z",
+      "Asset": {
+        "id": "asset2",
+        "ticker": "EFGH3",
+        "price": 12.85
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "order1",
+      "walletId": "wallet1",
+      "assetId": "asset1",
+      "shares": 5,
+      "price": 24.8,
+      "type": "BUY",
+      "status": "OPEN",
+      "createdAt": "2015-01-01T00:00:00Z",
+      "updatedAt": "2015-01-01T00:00:00Z",
+      "Asset": {
+        "id": "asset1",
+        "ticker": "ABCD1"
+      }
+    },
+    {
+      "id": "order2",
+      "walletId": "wallet1",
+      "assetId": "asset1",
+      "shares": 15,
+      "price": 25,
+      "type": "SELL",
+      "status": "OPEN",
+      "createdAt": "2015-01-01T00:00:00Z",
+      "updatedAt": "2015-01-01T00:00:00Z",
+      "Asset": {
+        "id": "asset1",
+        "ticker": "ABCD1"
+      }
+    },
+    {
+      "id": "order2",
+      "walletId": "wallet2",
+      "assetId": "asset2",
+      "shares": 15,
+      "price": 13,
+      "type": "SELL",
+      "status": "OPEN",
+      "createdAt": "2015-01-01T00:00:00Z",
+      "updatedAt": "2015-01-01T00:00:00Z",
+      "Asset": {
+        "id": "asset1",
+        "ticker": "ABCD1"
+      }
+    },
+    {
+      "walletId": "wallet1",
+      "assetId": "asset1",
+      "type": "BUY",
+      "shares": "2",
+      "price": "4",
+      "status": "OPEN",
+      "Asset": {
+        "id": "asset1",
+        "ticker": "ABCD1"
+      },
+      "id": "yDJxfF2"
+    },
+    {
+      "walletId": "wallet1",
+      "assetId": "asset1",
+      "type": "BUY",
+      "shares": "4",
+      "price": "5",
+      "status": "OPEN",
+      "Asset": {
+        "id": "asset1",
+        "ticker": "ABCD1"
+      },
+      "id": "WO5WRHn"
+    }
+  ]
+}
